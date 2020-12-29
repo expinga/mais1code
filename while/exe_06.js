@@ -5,3 +5,11 @@
 // “Insira 0 para sair ou qualquer outro número para o continuar.”
 // Até o usuário sair
 var rs = require("readline-sync")
+
+
+var numero = rs.question("Insira 0 para sair ou qualquer outra tecla para continuar: ")
+
+while(numero != 0){
+    numero = rs.question("Insira 0 para sair ou qualquer outra tecla para continuar: ")
+    
+}
