@@ -9,3 +9,16 @@
 // 4 = 2*2*2*2
 
 var rs = require("readline-sync")
+
+var numero_base = rs.question("Informe o numero base: ")
+var numero_potencia = rs.question("Informe o numero potencia: ")
+cont = 0
+resultado = 1
+while(cont < numero_potencia){
+
+    resultado = resultado * numero_base
+    cont++
+       
+}
+console.log(resultado)
+
